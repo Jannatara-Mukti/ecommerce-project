@@ -7,7 +7,7 @@ const Products = () => {
     return (
         <div className='container mx-auto'>          
             <div className='grid md:grid-cols-3 gap-4'>
-                <div className='w-64 shadow-lg rounded-2xl p-3 space-y-2'>
+                <div className='w-64 shadow-lg rounded-2xl p-3 mx-auto space-y-2'>
                     <div class="bg-gray-400 rounded-2xl p-2">
                         <img className='h-48 w-full' src={fruits} alt="" />
                     </div>
@@ -19,7 +19,7 @@ const Products = () => {
                     </div>
                 </div>
                  {/* More products... */}
-                 <div className='w-64 shadow-lg rounded-2xl p-3 space-y-2'>
+                 <div className='w-64 shadow-lg rounded-2xl p-3 mx-auto space-y-2'>
                     <div class="bg-gray-400 rounded-2xl p-2">
                         <img className='h-48 w-full' src={drinks} alt="" />
                     </div>
@@ -30,7 +30,7 @@ const Products = () => {
                         <a href="#" className='text-white px-6 py-2 bg-green-500 rounded-xl font-medium'>Buy Now</a>
                     </div>
                 </div>
-                <div className='w-64 shadow-lg rounded-2xl p-3 space-y-2'>
+                <div className='w-64 shadow-lg rounded-2xl p-3 mx-auto space-y-2'>
                     <div class="bg-gray-400 rounded-2xl p-2">
                         <img className='h-48 w-full' src={bakery} alt="" />
                     </div>
