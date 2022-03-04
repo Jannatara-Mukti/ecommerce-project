@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Topbar = () => {
     return (
-       <div className='container mx-auto'>
+       <div className='container px-5'>
             <div className='text-xs flex justify-between py-4'>
                 <div className='space-x-3'>
                 <ul className='list-none flex space-x-3 text-gray-800'>
