@@ -5,7 +5,7 @@ const Testimony = () => {
     return (
         <div className='container mx-auto pt-4 pb-8'>
             <h2 className='text-3xl font-bold pb-5'>Our satisfied customer says</h2>
-            <p className='text-gray-500 text-xs w-96 mx-auto'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p className='text-gray-300 text-xs w-96 mx-auto'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
             <div className='grid md:grid-cols-3 gap-3 pt-8'>
                 <div className='space-y-4 bg-gray-400 py-5 rounded'>
                     <div className='rounded-full w-24 h-20 mx-auto'>

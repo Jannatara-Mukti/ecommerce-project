@@ -7,7 +7,7 @@ const Register = () => {
     return (
         <div>
              <Topbar />
-            <div className='container mx-auto bg-indigo-700 py-16'>
+            <div className='container mx-auto bg-indigo-700 py-16 mt-7'>
                 <h2 className='text-3xl font-bold text-white pb-5'>Please Register</h2>
                 <div className='bg-white w-80 mx-auto p-16 rounded'>
                     <input type="text" placeholder='name' className='form-input rounded border-indigo-700 mb-5' />

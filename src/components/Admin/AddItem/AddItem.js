@@ -6,7 +6,7 @@ const AddItem = () => {
     return (
         <div>
              <Topbar />
-            <div className='container mx-auto bg-cyan-700 py-16'>
+            <div className='container mx-auto bg-cyan-700 py-16 mt-8'>
                 <h2 className='text-3xl font-bold text-white pb-5'>Add an Product Item</h2>
                 <div className='bg-white w-96 mx-auto p-10 rounded'>
                     <input type="text" placeholder='Item name' className='form-input rounded border-cyan-700 mb-5 px-7' />
